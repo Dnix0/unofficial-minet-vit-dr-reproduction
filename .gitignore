@@ -1,0 +1,62 @@
+# Data and medical images
+data/
+dataset/
+datasets_raw/
+images/
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.bmp
+**/*.gif
+**/*.tif
+**/*.tiff
+
+# Model artifacts and outputs
+outputs/
+output/
+checkpoints/
+weights/
+runs/
+wandb/
+logs/
+**/*.pth
+**/*.pt
+**/*.ckpt
+**/*.onnx
+**/*.h5
+**/*.hdf5
+**/*.npy
+**/*.npz
+**/*.pkl
+**/*.pickle
+
+# Papers and archives
+**/*.pdf
+**/*.zip
+**/*.7z
+**/*.rar
+
+# Secrets and local configuration
+.env
+.env.*
+kaggle.json
+credentials.json
+secrets.json
+token.json
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Publication audit report
+PUBLICATION_SCAN_FINDINGS.txt
